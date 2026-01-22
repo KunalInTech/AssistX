@@ -1,0 +1,4 @@
+Unlike traditional AI-based customer support systems that rely on static intent classification and predefined escalation rules, the proposed system introduces a 
+self-learning. The system continuously improves its response accuracy by learning from admin feedback, analyzing user sentiment, and making intelligent 
+escalation decisions based on multiple real-time factors. This ensures higher resolution accuracy, reduced admin workload, and an adaptive customer support 
+experience.
