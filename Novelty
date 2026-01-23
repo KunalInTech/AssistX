@@ -1,0 +1,5 @@
+Novelty for the project
+Our project introduces a context-aware, AI-driven customer support automation system with intelligent escalation and 
+learning from historical tickets, implemented using a scalable Spring Boot architecture.
+our novelty lies in combining context retention, intent confidence–based escalation, and 
+learning from past resolutions in a single lightweight academic system, rather than just a static chatbot.
