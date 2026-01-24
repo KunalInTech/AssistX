@@ -82,7 +82,7 @@ These use cases are represented using UML Use Case Diagrams to clearly define sy
 
 | Layer    | Technology (Proposed)                       |
 | -------- | ------------------------------------------- |
-| Frontend | HTML, CSS, React                            |
+| Frontend | HTML, CSS, Javascript/React                            |
 | Backend  | Java, Spring Boot                           |
 | Database | MySQL                                       |
 | AI / ML  | NLP, Sentiment Analysis, Transformer Models |
