@@ -1,0 +1,20 @@
+• The diagram represents a Use Case Diagram for the AssistX – AI-Based Customer Support Automation System.
+
+• The system has three main actors: User, AI Agent, and Admin, each interacting with the system according to their responsibilities.
+
+• Users can register, log in, and raise customer support queries.
+
+• The AI Agent is responsible for classifying queries and generating automated responses.
+
+• The Generate Auto-Response use case includes Classify Query, indicating that classification is mandatory before any response is generated.
+
+• The system may flag a query for escalation if the confidence of the auto-response is low.
+
+• The Flag for Escalation use case extends Generate Auto-Response, showing that escalation is optional and occurs only under specific conditions.
+
+• The Admin logs into the system and accesses the Admin Dashboard.
+
+• The Admin Dashboard allows admins to monitor tickets, view escalated queries, and track system performance.
+• The diagram clearly separates human roles (User, Admin) from the automated AI component (AI Agent).
+
+• The system boundary defines all functionalities that belong to AssistX.
