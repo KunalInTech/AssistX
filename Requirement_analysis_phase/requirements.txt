@@ -1,0 +1,35 @@
+AssistX - AI-Based Customer Support Automation System
+
+--------------------Requirements Phase--------------------
+
+1. Functional Requirements
+
+The system shall allow users to register and log in securely.
+The system shall allow users to submit customer support queries.
+The system shall automatically classify customer queries using AI-based logic.
+The system shall generate automated responses for common queries.
+The system shall calculate a confidence score for each response.
+The system shall escalate queries with low confidence to a support agent.
+The system shall allow agents to view and resolve escalated tickets.
+The system shall allow admins to monitor tickets and system performance.
+
+2. Non-Functional Requirements
+
+The system shall provide responses within a reasonable time.
+The system shall ensure secure authentication and authorization.
+The system shall be reliable and handle failures gracefully.
+The system shall be user-friendly and easy to use.
+The system shall support future scalability and feature enhancement.
+
+3. System Requirements
+
+Backend: Java, Spring Boot
+Database: MySQL
+AI Module: Rule-based NLP / AI API
+Platform: Web Application
+
+4. Hardware & Software Requirements
+
+Minimum 4 GB RAM
+Java 17
+Web Browser (Chrome / Firefox)
