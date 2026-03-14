@@ -48,7 +48,7 @@ Frontend:
 - HTML  
 - CSS  
 - JavaScript
-- 
+
 ---
 
 ## 🚀 Future UI Improvements

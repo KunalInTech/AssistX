@@ -1,6 +1,6 @@
 During the design phase of the AssistX project, the following tools and technologies were used to conceptualize, document, and visualize the system architecture and workflows:
 
 1. Markdown (README.md) – Used for structured documentation of project vision, objectives, and design decisions
-2. Draw.io / Diagrams.net – Created the Use Case Diagram (UCD) to model system interactions
+2. Draw.io / PowerPoint – Created the Use Case Diagram (UCD) to model system interactions
 3. Text Documentation (novelty.txt) – Documented the novelty and uniqueness of the proposed solution
 4. Git & GitHub – Version control, commit history tracking, and collaborative design iteration
