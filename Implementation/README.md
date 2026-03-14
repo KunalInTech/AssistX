@@ -1,3 +1,5 @@
+---
+
 ## 🎨 AssistX UI Design & Implementation
 
 The **User Interface (UI)** of AssistX enables users to interact with the system through a **web-based graphical interface**.  
@@ -45,7 +47,7 @@ The UI was implemented using **HTML, CSS, and JavaScript** to create interactive
 Frontend:
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
 
 ---
 
