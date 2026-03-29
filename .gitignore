@@ -1,0 +1,15 @@
+# ML model cache
+ML Model/hf_cache/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files
+*.bin
+*.pt
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
