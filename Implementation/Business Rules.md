@@ -137,7 +137,7 @@ Validation ensures data entering the system is correct, consistent, and properly
 
 ---
 
-## C. DATA TRANSFORMATION (10 Marks)
+## C. DATA TRANSFORMATION 
 
 ### Definition
 Data transformation converts data between different formats to ensure compatibility across application layers.
