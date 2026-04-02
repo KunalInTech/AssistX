@@ -1,113 +1,200 @@
-# 🤖 AssistX – AI-Based Customer Support System (Design Phase)
-AssistX is an **AI-driven customer support system** designed to automate query handling, provide intelligent responses, and seamlessly involve human agents when required. This repository currently represents the **Design Phase** of the project, focusing on system architecture, UML diagrams, and overall workflow planning.
----
-## 📌 Project Status
-🚧 **Current Phase:** Design Phase (Extended with Implementation)
-📄 **Included Artifacts:**
-* ✅ Use Case Diagram (UCD)
-* ✅ Data Flow Diagrams (Context Diagram & Level 1 DFD)
-* ✅ Complete UML Class Diagram (10 classes, 12 relationships)
-* ✅ Draw.io Editable UML Diagram
-* ✅ Module Implementations (Query Management & AI Agent)
-* ✅ Working Database Schema (SQLite)
-* ✅ Comprehensive Documentation
-* ✅ System workflow and actor interactions
-* ✅ AI decision flow (classification, response, escalation)
+# 🤖 AssistX – AI-Based Customer Support System
 
-Implementation of core modules has been completed. Full system integration will be carried out in subsequent phases.
+AssistX is an **AI-driven customer support system** designed to automate query handling, generate intelligent responses, and seamlessly escalate complex issues to human agents when required.
+
+The project follows the **Software Development Life Cycle (SDLC)** and is currently in the **Implementation and Testing Phase**, with core modules developed and testing actively in progress.
+
 ---
+
+## 📌 Project Status
+
+🚧 **Current Phase:** Implementation + Testing  
+
+### 📄 Completed Artifacts:
+- ✅ Use Case Diagram (UCD)  
+- ✅ Data Flow Diagrams (Context Diagram & Level 1 DFD)  
+- ✅ UML Class Diagram (10 classes, 12 relationships)  
+- ✅ Draw.io Editable UML Files  
+- ✅ Core Module Implementations:
+  - Query Management  
+  - AI Agent  
+- ✅ Functional Database Schema (SQLite / MySQL-ready)  
+- ✅ UI Components (Login, Dashboard, Query Form)  
+
+### 🧪 Testing Progress:
+- ✅ White Box Testing (Unit-level logic testing)  
+- ✅ Black Box Testing (Functional testing using test cases)  
+- ⏳ Integration Testing (In Progress)  
+
+---
+
 ## 🎯 Project Objective
-The goal of ASSISTX is to design a scalable and intelligent customer support platform that:
-* Reduces response time using AI-generated replies
-* Handles large volumes of customer queries efficiently
-* Escalates complex or low-confidence cases to human agents
-* Enables administrators to monitor system performance
+
+The goal of **AssistX** is to design a **scalable and intelligent customer support platform** that:
+
+- ⚡ Reduces response time using AI-generated replies  
+- 📊 Handles large volumes of customer queries efficiently  
+- 🔄 Escalates complex or low-confidence cases to human agents  
+- 📈 Enables administrators to monitor system performance  
+
 ---
-## ✨ Key Design Highlights
+
+## ✨ Key Features
+
 ### 👤 User / Customer
-* Register and login to the system
-* Submit support queries
-* Receive automated AI responses
-### 🤖 AI System (Implemented)
-* Classifies incoming queries using NLP techniques
-* Analyzes context and confidence level
-* Generates auto-responses for common issues
-* Flags queries for escalation when confidence is low
-* Performs sentiment analysis (positive, negative, neutral)
-* Detects user intent (inquiry, complaint, request, feedback)
+- Register and login securely  
+- Submit queries through UI  
+- Receive automated AI responses  
+
+---
+
+### 🤖 AI System
+- Classifies queries using NLP techniques  
+- Performs sentiment analysis (Positive / Negative / Neutral)  
+- Detects user intent (Inquiry, Complaint, Request, Feedback)  
+- Generates automated responses  
+- Escalates queries when confidence is low  
+
+---
+
 ### 🧑‍💼 Support Agent
-* Views escalated tickets
-* Resolves customer issues manually
-* Provides feedback that can be used to improve AI responses
+- Handles escalated queries  
+- Resolves issues manually  
+- Provides feedback for AI improvement  
+
+---
+
 ### 🛠️ Admin
-* Monitors overall system performance
-* Tracks query resolution and escalation metrics
-* Generates analytics reports
-* Manages system configuration
+- Monitors system performance  
+- Tracks query resolution metrics  
+- Manages system configuration  
+
 ---
-## 🧩 System Design – Use Case Overview
-**Actors:**
-* User / Customer
-* Support Agent
-* Admin
-**Major Use Cases:**
-* Register / Login
-* Submit Support Query
-* Classify Query (AI)
-* Generate Auto-Response
-* Escalate to Support Agent
-* Resolve Ticket
-* Monitor System Performance
-These use cases are represented using UML Use Case Diagrams to clearly define system behavior and responsibilities.
+
+## 🧩 System Design Overview
+
+### 👥 Actors:
+- User / Customer  
+- Support Agent  
+- Admin  
+
+### 🔑 Major Use Cases:
+- Register / Login  
+- Submit Query  
+- AI Classification  
+- Auto Response Generation  
+- Escalation Handling  
+- Ticket Resolution  
+- System Monitoring  
+
 ---
-## 🛠️ Proposed Tech Stack (For Implementation Phase)
-| Layer    | Technology (Proposed)                       |
-| -------- | ------------------------------------------- |
-| Frontend | HTML, CSS, Javascript/React                            |
-| Backend  | Python (Core Modules), Java Spring Boot (Full System)                           |
-| Database | SQLite (Development), MySQL (Production)                                       |
-| AI / ML  | NLP, Sentiment Analysis, Pattern Matching, Transformer Models (Future) |
+
+## 🛠️ Technology Stack
+
+| Layer       | Technology |
+|------------|-----------|
+| Frontend   | HTML, CSS, JavaScript |
+| Backend    | Python (Core Modules), Flask (Planned Integration) |
+| Database   | SQLite (Development), MySQL (Production) |
+| AI / ML    | NLP, Sentiment Analysis, Pattern Matching |
+
 ---
-## 📂 Repository Structure (Design Phase)
+
+## 📂 Repository Structure
+
 ```
 ASSISTX/
 │── Requirements and Analysis Phase/
 │   └── requirements.txt
 │
 │── Design Phase/
-│   ├── UCD Diagram
-│   ├── Data Flow Diagrams (Context & Level 1 DFD)
-│   ├── UML Class Diagram (Complete with Relationships)
-│   ├── Draw.io Editable Diagrams
+│   ├── Use Case Diagram
+│   ├── Data Flow Diagrams
+│   ├── UML Class Diagram
+│   ├── Draw.io Files
 │   └── Novelty
+|
+│── Developement Phase
+│   ├── AI Agent.java
+│   ├── Session.java
+│   ├── Main.java
+│   ├── Query.java
+│   ├── Response.java
+│   └── README.md
 │
 │── Implementation/
-│   └── module_implementation.py (Query Management + AI Agent)
+│   ├── Business Rules
+│   ├── Business Logic
+│   ├── README.md
+│   ├── WhiteBox and BlackBox Testing.md
+│   ├── ui/
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   └── script.js
 │
 │── README.md
 ```
----
-## 👥 Collaborators
-* **Kunal Purohit** 
-* **Aniket**
-* **Aryadeep**
----
-## 📈 Next Steps
-* ✅ ~~Detailed data flow diagrams~~ (Completed)
-* ✅ ~~Complete UML class diagrams~~ (Completed)
-* ✅ Core module implementation (2 modules Completed)
-* 📋 Sequence diagrams for key workflows
-* 📋 Activity diagrams for business processes
-* 📋 State diagrams for query lifecycle
-* 📋 Component and deployment diagrams
-* 📋 Complete database schema design for production (MySQL)
-* 📋 REST API design and documentation
-* 📋 Frontend UI/UX mockups
-* 📋 Begin full system integration
-* 📋 Testing strategy and test cases
----
-## ⭐ Note
-This repository focuses on **system design, planning, and core module implementation**. The Query Management and AI Agent modules are fully functional with comprehensive testing. Full system integration and frontend development will be added in later stages as the project progresses.
----
-If you like the idea or find the design useful, feel free to ⭐ star the repository!
 
+---
+
+## 🔄 SDLC Mapping
+
+| Phase                     | Status        |
+|--------------------------|--------------|
+| Requirement Analysis     | ✅ Completed |
+| System Design            | ✅ Completed |
+| Implementation           | ✅ Completed |
+| White Box Testing        | ✅ Completed |
+| Black Box Testing        | ✅ Completed |
+| Integration Testing      | ⏳ In Progress |
+| Deployment               | ⏳ Pending |
+
+---
+
+## 🧪 Testing Details
+
+### 🔍 White Box Testing
+- Focuses on internal code structure and logic  
+- Tested:
+  - Query processing logic  
+  - AI decision flow  
+  - Database operations  
+
+### 🔍 Black Box Testing
+- Focuses on input-output behavior  
+- Tested:
+  - Valid and invalid inputs  
+  - Query submission functionality  
+  - System response accuracy
+    
+---
+
+## 📈 Future Improvements
+
+- 📱 Responsive UI for mobile devices  
+- 🔔 Real-time notifications  
+- 🔗 Full backend integration (Flask APIs)  
+- 🧠 Advanced AI models (Transformers)  
+- ☁️ Deployment on cloud platforms  
+
+---
+
+## 👥 Collaborators
+
+- **Kunal Purohit**  
+- **Aniket**  
+- **Aryadeep**  
+
+---
+
+## ⭐ Note
+
+This project demonstrates a **complete SDLC approach**, including **Design, Implementation, and Testing phases**.  
+
+The system is being developed incrementally with a focus on **scalability, maintainability, and real-world applicability**.
+
+---
+
+## 🌟 Support
+
+If you find this project useful, consider giving it a ⭐ on GitHub!
