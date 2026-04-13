@@ -1,0 +1,10 @@
+BB-TC-01: Valid registration
+BB-TC-02: Duplicate username
+BB-TC-03: Invalid email format
+BB-TC-04: Short password
+BB-TC-05: Missing required field
+BB-TC-06: Valid login
+BB-TC-07: Invalid credentials
+BB-TC-08: Non-existent user
+BB-TC-09: Special characters
+BB-TC-10: Boundary values
